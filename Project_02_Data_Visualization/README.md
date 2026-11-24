@@ -5,7 +5,7 @@ A complete, reproducible data-visualization project based on the Seaborn **Tips*
 ## Project contents
 - `Project_02_Data_Visualization.ipynb` — guided Jupyter notebook with code and written findings.
 - `analysis.py` — standalone script that regenerates all charts.
-- `data/tips.csv` — local copy of the dataset, so the project can run offline.
+- `data/tips.csv.gz` — compressed local copy of the dataset, so the project can run offline.
 - `charts/` — five individual charts and the combined 2×2 dashboard.
 - `TAKEAWAYS.md` — written takeaways and interpretation notes.
 
@@ -34,7 +34,7 @@ jupyter notebook
 ```
 Then open `Project_02_Data_Visualization.ipynb`.
 
-The notebook and script read the included `data/tips.csv`; loading the dataset does not require an internet connection.
+The notebook and script read the included `data/tips.csv.gz`; loading the dataset does not require an internet connection.
 
 ## Dataset source
 Seaborn Tips sample dataset: https://github.com/mwaskom/seaborn-data/blob/master/tips.csv
