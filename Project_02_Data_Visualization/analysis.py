@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "data" / "tips.csv"
+DATA_PATH = ROOT / "data" / "tips.csv.gz"
 CHART_DIR = ROOT / "charts"
 CHART_DIR.mkdir(exist_ok=True)
 
